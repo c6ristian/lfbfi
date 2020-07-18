@@ -1,0 +1,8 @@
+[Unit]
+After=dhcpcd.service
+
+[Service]
+ExecStart=/bin/fb
+
+[Install]
+WantedBy=default.target
